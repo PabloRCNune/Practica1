@@ -14,16 +14,22 @@ li i{
     min-height: 278px;
     object-fit: cover;
 }
-.col-md-3 .card {
-    width: 11.11111111vw;
-    height: 11.11111111vw;
-    padding: .55555556vw;
-}
-.col-md-3 .card .bi{
-    font-size: 5vw;
-}
-.col-md-3 .card img {
+.card {
     width: 100%;
-    height: 100%;
+    max-height: 13vw;
+    padding: 0.5em;
+}
+
+.col-sm-12 .card {
+    max-height: 50vw;
+    padding: 0.5em;
+}
+
+.card-img-top{
+    height: 100%; 
+    font-size: 2em; 
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
     object-fit: scale-down;
 }
