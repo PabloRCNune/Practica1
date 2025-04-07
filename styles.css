@@ -14,19 +14,11 @@ li i{
     min-height: 278px;
     object-fit: cover;
 }
-.col-lg-3 .card {
-    width: 100%;
-    max-height: 13vw;
-    padding: 0.5em;
-}
-.col-md-6 .card {
-    width: 100%;
-    max-height: 13vw;
-    padding: 0.5em;
-}
 
-.col-sm-12 .card {
-    max-height: 50vw;
+
+.container .col-sm-12 .card {
+    width: 60%;
+    max-height: 6em;
     padding: 0.5em;
 }
 
