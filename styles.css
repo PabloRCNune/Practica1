@@ -33,3 +33,22 @@ li i{
     justify-content: center;
     object-fit: scale-down;
 }
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+li a, li p {
+    align-items: center;
+    padding: 8px;
+    display: flex;
+    color: #FFF;
+    text-decoration: none;
+}
