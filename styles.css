@@ -4,7 +4,7 @@ body {
 li i{
     font-size: 2em; 
 }
-.carousel-item {
+#news .carousel-inner .carousel-item {
     max-width: 100%;
     max-height: 278px;
 }
@@ -14,7 +14,12 @@ li i{
     min-height: 278px;
     object-fit: cover;
 }
-.card {
+.col-lg-3 .card {
+    width: 100%;
+    max-height: 13vw;
+    padding: 0.5em;
+}
+.col-md-6 .card {
     width: 100%;
     max-height: 13vw;
     padding: 0.5em;
@@ -52,3 +57,21 @@ li a, li p {
     color: #FFF;
     text-decoration: none;
 }
+
+#carouselRecommended .carousel-control-prev,
+    #carouselRecommended .carousel-control-next {
+      width: 5%;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+    }
+
+    #carouselRecommended .carousel-control-prev {
+      left: 0px; 
+      background-color: gray;
+    }
+
+    #carouselRecommended .carousel-control-next {
+      right: 0px;
+      background-color: gray;
+    }
