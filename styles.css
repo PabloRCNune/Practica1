@@ -67,3 +67,8 @@ li a, li p {
       right: 0px;
       background-color: gray;
     }
+
+    /*Pruebas*/
+    #crdsmall1,#crdsmall2,#crdsmall3,#crdsmall4,#crdLarge {
+        height: calc(100% - 1rem);
+    }
