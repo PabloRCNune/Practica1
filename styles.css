@@ -24,6 +24,10 @@ li i{
 #categories .row .card img {
     margin-top: 0.25em;
 }
+#categories .row .card .card-body { 
+    margin-top: 0.85em;
+    padding: 0.5em;
+}
 
 .card-img-top{
     height: 100%; 
