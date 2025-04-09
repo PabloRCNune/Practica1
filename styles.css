@@ -15,7 +15,6 @@ li i{
     object-fit: cover;
 }
 
-
 #categories .row .card {
     margin-right: 1em;
     max-height: 7em;
@@ -69,12 +68,28 @@ li a, li p {
       left: 0px; 
       background-color: gray;
     }
-
+    
     #carouselRecommended .carousel-control-next {
-      right: 0px;
-      background-color: gray;
-    }
-
+        right: 0px;
+        background-color: gray;
+      }
+   
     #crdsmall1,#crdsmall2,#crdsmall3,#crdsmall4,#crdLarge {
         height: calc(100% - 1rem);
+        background-color: #f4f4f4;
+        border: 0;
+    }
+    #crdsmall1 .card-body a,#crdsmall2 .card-body a,#crdsmall3 .card-body a,#crdsmall4 .card-body a,#crdLarge .card-body a {
+        margin-top: 0.75em;
+    }
+    #crdsmall1 img,#crdsmall2 img,#crdsmall3 img,#crdsmall4 img,#crdLarge img{
+        object-fit: fill;
+        height: 55%;
+        
+    }
+  
+    /*Pruebas*/
+    #tendency {
+        text-decoration: none;
+        color: #000;
     }
