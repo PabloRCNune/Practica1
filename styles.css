@@ -106,8 +106,6 @@ li a, li p {
         height: 55%;
         
     }
-  
-    /*Pruebas*/
     #tendency {
         text-decoration: none;
         color: #000;
@@ -116,3 +114,9 @@ li a, li p {
         width: 70%;
         height: 100%;
     }
+    
+      /*Pruebas*/
+#listProducts .card {
+    width: 300px;
+    height: 300px;
+}
