@@ -27,6 +27,9 @@ li i{
     max-height: 7em;
     max-width: 10em;
 }
+#categories .row .card:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+}
 #categories .row .card img {
     margin-top: 0.25em;
 }
