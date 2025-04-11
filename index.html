@@ -65,16 +65,18 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <span class="input-group-text" id="basic-addon1"
-                ><i class="bi bi-search"></i
-              ></span>
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Buscar"
-                aria-label="Search"
-                aria-describedby="basic-addon1"
-              />
+              <div class="input-group">
+                <span class="input-group-text" id="basic-addon1">
+                  <i class="bi bi-search"></i>
+                </span>
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Buscar"
+                  aria-label="Search"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
             </form>
             <ul class="nav navbar-nav navbar-right">
               <li>
@@ -233,7 +235,7 @@
                 <div
                   class="card-body d-flex flex-column justify-content-end align-items-center"
                 >
-                  <h5 class="card-title">Chanchito feliz</h5>
+                  <h5 class="card-title"><strong>Videojuegos hasta 50% de descuento</strong></h5>
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -311,8 +313,21 @@
           </div>
         </div>
         <div class="container my-5 position-relative">
-          <p class="h2 text-center"><b>Productos recomendados</b></p>
-
+          <a id="tendency" class="d-inline-flex" href="#">
+            <p class="h2 mb-4">
+              <b>Productos recomendados</b>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                width="24"
+                viewBox="0 0 320 512"
+              >
+                <path
+                  d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                />
+              </svg>
+            </p>
+          </a>
           <div id="carouselRecommended" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
